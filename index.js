@@ -6,7 +6,6 @@ const config = require('./config/key');
 
 const {user, User} = require('./models/User');
 
-
 //bodyParser 가 Client에서 오는 정보를 서버에서 분석할 수 있게 가져옴.
 
 //application/x-www-form-uelencoded 분석해서 가져옴
