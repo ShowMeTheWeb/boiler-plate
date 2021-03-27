@@ -12,6 +12,7 @@ const {user, User} = require('./models/User');
 app.use(bodyParser.urlencoded({extended: true}));
 //application/json 분석해서 가져옴
 app.use(bodyParser.json());
+// app.use()
 
 
 const mongoose = require('mongoose');
